@@ -517,6 +517,19 @@ input {
     margin-left: auto;
 }
 
+.skills__active .skills__arrow {
+    transform: rotate(-90deg);
+    transition: .3s;
+}
+
+.skills [data-content] {
+    display: none;
+}
+
+.skills__active[data-content] {
+    display: block;
+}
+
 .skill__list {
     row-gap: 1.8rem;
 }
