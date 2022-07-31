@@ -816,6 +816,14 @@ input {
         margin-right: var(--mb-1-5);
     }
 
+    .my__info {
+        display: flex;
+        column-gap: 1.8rem;
+        position: absolute;
+        left: 0;
+        bottom: 1.8rem;
+    }
+
     .sidebar {
         width: 100%;
         z-index: 999;
